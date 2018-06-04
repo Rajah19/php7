@@ -21,10 +21,12 @@
 ## None
  uses value as passed in
  
+ ```PHP
  function sum($a, $b) {
      $result = $a + $b;
      echo $a ." ".gettype($a) ." + ". $b . " ". gettype($b) ." = ".$result ." ". gettype($result);
  }
+ ```
 
  sum(2,3);
  // 2 integer + 3 integer =  5 integer
@@ -41,11 +43,13 @@
 ## Coercive
  immediately coerces value
 
+ ```PHP
  function sum(int $a, int $b) {
      $result = $a + $b;
      echo $a ." ".gettype($a) ." + ". $b . " ". gettype($b) ." = ".$result ." ". gettype($result);
  }
-
+ ```
+ 
  sum(2,3);
  // 2 integer + 3 integer =  5 integer
 
@@ -60,6 +64,7 @@
 ## Strict
  raises error if type does not match
 
+ ```PHP
  declare(strict_types=1)
  function sum(int $a, int $b) {
      $result = $a + $b;
@@ -74,7 +79,7 @@
 
  sum(2.0, 3.0);
  // TypeError: Argument must be of the type integer, float given
-
+ ```
 
 Other types : array, bool, float, int and string
 
