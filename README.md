@@ -19,7 +19,7 @@
 ---------------------------------------
 
 ## None
- uses value as passed in
+ Uses value as passed in
  
  ```PHP
  function sum($a, $b) {
@@ -42,7 +42,7 @@
 
 ### Scalar Type
 ## Coercive
- immediately coerces value
+ Immediately coerces value
 
  ```PHP
  function sum(int $a, int $b) {
@@ -63,7 +63,7 @@
 ---------------------------------------
 
 ## Strict
- raises error if type does not match
+ Raises error if type does not match
 
  ```PHP
  declare(strict_types=1)
@@ -84,4 +84,32 @@
 
 Other types : array, bool, float, int and string
 
+---
 
+# Return type declarations 
+- Specify the type of function return values
+- Three techniques: none, coercive, and strict
+- Identifiers as scalar type declarations
+   Array, int , bool, float and string
+   
+## None
+```PHP
+     function sum($a,$b){
+       return $a + $b;
+    }
+```
+
+## Coercive
+```PHP
+    function sum($a, $b) : int {
+      return $a + $b;
+    }
+ ```
+ 
+ ## Strict
+ ```PHP
+    declare(strict_types=1);
+    function sum($a,$b): String {
+      return $a + $b;
+    }
+ ```   
