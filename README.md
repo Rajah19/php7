@@ -135,5 +135,5 @@ Other types : array, bool, float, int and string
        Return 1 when left side is greater than right side
     
     ```
-    [Referance] (https://tutorials.kode-blog.com/php-7-new-operators).
+    [Referance](https://tutorials.kode-blog.com/php-7-new-operators).
    
