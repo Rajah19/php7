@@ -117,13 +117,13 @@ Other types : array, bool, float, int and string
 
 # Combined Comparison Operator
    #### Comparison Operator
+  
    
-   ```
      ==, ===
      !=, !==
      <, <=
      
-    ```
+    
     
     #### Spaceship Operator <=>
     Used to compare two values
