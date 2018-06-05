@@ -122,6 +122,7 @@ Other types : array, bool, float, int and string
      ==, ===
      !=, !==
      <, <=
+     
     ```
     
     #### Spaceship Operator <=>
