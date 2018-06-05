@@ -113,3 +113,27 @@ Other types : array, bool, float, int and string
       return $a + $b;
     }
  ```   
+-------
+
+# Combined Comparison Operator
+   #### Comparison Operator
+   
+   ```PHP
+     ==, ===
+     !=, !==
+     <, <=
+    ```
+    
+    #### Spaceship Operator <=>
+    Used to compare two values
+    
+    ```
+       $swatch_price <=> $rolex_price
+       
+       Returns -1 when left side is less than right side
+       Returns 0 when both sides are equal
+       Return 1 when left side is greater than right side
+    
+    ```
+    [Referance] (https://tutorials.kode-blog.com/php-7-new-operators).
+   
